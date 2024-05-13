@@ -1,0 +1,20 @@
+@use '../../styles/variables' as *;
+@use '../../styles/global' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/typography' as *;
+
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    // height: 7.5rem;
+}
+
+.button {
+    text-align: center;
+    border: none;
+    padding: .25rem .75rem;
+}
